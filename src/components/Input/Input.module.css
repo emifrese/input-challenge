@@ -1,0 +1,109 @@
+.inputContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    width: 35%;
+}
+
+.inputTitle {
+    font-family: 'Ubuntu Mono';
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    width: 100%;
+    margin: 0;
+    text-align: left;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0;
+    line-height: 20.27px;
+    min-width: 81px;
+    min-height: 36px;
+    box-shadow: 0px 2px 3px 0px #33333333;
+    border: none;
+    border-radius: 6px;
+    color-scheme: none;
+    cursor: pointer;
+}
+
+button img {
+    width: 14px;
+    margin-right: 10px;
+}
+
+.inputDefault {
+    background-color: #E0E0E0;
+}
+
+.inputDefault:hover, .inputDefault:focus {
+    background-color: #AEAEAE;
+}
+
+.outlineInput {
+    border: 1px solid #3D5AFE;
+    color: #3D5AFE;
+}
+
+.outlineInput:hover, .outlineInput:focus {
+    background-color: rgba(41, 98, 255, 0.1);
+}
+
+.textInput {
+    color: #3D5AFE;
+}
+
+.textInput:hover, .textInput:focus {
+    background-color: rgba(41, 98, 255, 0.1);
+}
+
+.disabledInput {
+    color: #9E9E9E;
+    background-color: #e0e0e0
+}
+
+.startImg {
+    margin-left: 16px;
+}
+
+.endImg {
+    margin-left: 8px;
+    margin-right: 18px;  
+}
+
+
+.primary {
+    background-color: #2962ff;
+    color: #fff;
+}
+
+.primary:hover, .primary:focus {
+    background-color: #0039cb
+}
+
+.secondary {
+    background-color: #455a64;
+    color: #fff;
+}
+
+.secondary:hover, .secondary:focus {
+    background-color: #1c313a;
+}
+
+.danger {
+    background-color: #d32f3f;
+    color: #fff
+}
+
+.danger:hover, .danger:focus {
+    background-color: #9a0007
+}

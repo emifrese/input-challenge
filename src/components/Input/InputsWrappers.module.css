@@ -1,0 +1,19 @@
+.inputsWrappers {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 5rem;
+    width: 80%;
+}
+
+.inputPageTitle {
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 500;
+    color: #4F4F4F;
+    margin-top: 50px;
+}
