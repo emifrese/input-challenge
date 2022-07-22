@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const MainPage = () => {
   return (
     <>
-      <h1>Button Component</h1>
+      <h1>Input Component</h1>
 
       <div>
         Solution for a challenge from{" "}
